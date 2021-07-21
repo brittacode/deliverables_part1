@@ -1,0 +1,116 @@
+
+body {
+    font-family: 'Bungee', cursive;
+    font-size: 15px;
+    
+}
+
+
+nav{
+    float:right;
+}
+
+
+nav > ul  {
+    list-style: none;
+
+}   
+
+nav ul li a:hover, a:active {
+    color: #10fdff;
+}
+
+nav li{
+     display:inline-block;
+     margin-left: 100px;
+}
+
+nav a {
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #7944e6;
+}
+
+
+.about {
+    background-color: #ff00ff;
+}
+section{
+    padding:40px 120px;
+    margin: 10px 10px;
+
+}
+ 
+.img-truck{
+    width: 400px;
+    margin-left: 200px;
+
+}
+.column{
+    color: #7944e6;
+    text-align: center;
+    border: 5px solid;
+    
+
+    
+}
+
+.column {
+        float:left;
+        width: 33%;
+        padding: 30px;
+        margin: 20px;
+      }
+
+
+ .column a{
+          text-decoration: none;
+          margin-left: 40px ;
+        
+      } 
+.column h1{
+         color:black;
+
+}
+.row {
+    display:flex;
+    justify-content:center;
+}
+.row {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.row::after {
+        content: "";
+        clear: both;
+        display: table;
+
+      }
+ 
+
+ .img-coffee{
+          width:300px;
+          
+      }
+  .img-cream{
+          width: 301px;
+          
+      }
+ .img-cookie{
+          width:347px;
+          
+        
+ }
+ @media screen and (min-width: 780px) {
+     
+         p {
+             font-size: 12px;
+         }
+     
+
+ }
+          
